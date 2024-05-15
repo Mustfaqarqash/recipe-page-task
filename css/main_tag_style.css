@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&family=Young+Serif&display=swap');
+
+body {
+    padding: 10px;
+    font-family: "Outfit", sans-serif;
+    background-color: antiquewhite;
+}
+
+.content {
+    padding: 15px;
+    background-color: white;
+    border-radius: 12px;
+    margin: 20%;
+    max-width: 25%;
+}
+
+.image {
+    border-radius: 12px;
+}
+
+header .title {
+    font-family: "Young Serif", serif;
+    font-size: 25px;
+}
+
+.description {
+    font-family: "Outfit", sans-serif;
+}
+
+.preparation {
+    background-color: rgba(128, 0, 128, 0.055);
+    border-radius: 12px;
+    padding: 10px;
+    color: rgb(47, 47, 47);
+    font-family: "Outfit", sans-serif;
+}
+
+.preparation b {
+    color: rgba(0, 0, 0, 0.745);
+    font-weight: 700;
+}
+
+.preparation p, .preparation ul {
+    color: purple;
+}
+
+.preparation li {
+    color: gray;
+}
+
+.ingredients p {
+    font-family: "Young Serif", serif;
+    font-size: 20px;
+    color: brown;
+}
+
+.ingredients ul {
+    color: brown;
+    font-family: "Young Serif", serif;
+}
+
+#itemIngredients {
+    font-family: "Young Serif", serif;
+    font-weight: lighter;
+    color: gray;
+}
+
+.instructions ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.instructions p {
+    font-family: "Young Serif", serif;
+    font-size: 20px;
+    color: brown;
+}
+
+.instructions li {
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.instructions li::marker {
+    color: brown;
+}
+
+.Nutrition p {
+    font-family: "Young Serif", serif;
+    font-size: 20px;
+    color: brown;
+}
+
+.Nutrition span {
+    font-family: "Young Serif", serif;
+    font-size: 13px;
+    color: gray;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+tr {
+    border-bottom: 1px solid #00000031;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 1600px) {
+
+    .content {
+        padding: 15px;
+        background-color: white;
+        border-radius: 12px;
+        margin: 1px;
+        max-width: 100%;
+
+    }
+}
